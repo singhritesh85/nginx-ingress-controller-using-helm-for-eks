@@ -18,7 +18,6 @@ service.beta.kubernetes.io/aws-load-balancer-ssl-ports: https
 service.beta.kubernetes.io/aws-load-balancer-type: elb
 ````
 
-===================================================================
 You need to change the targetPort for https to 80 in nginx ingress controller service as written below:-
 -------------------------------------------------------------------------------------------------------------------------------
 Before:
@@ -45,7 +44,6 @@ After:
       targetPort: 80
 
 
-=================================================================
 Write the ingress-rule.yaml provide the service name and service port accordingly file as written below:-
 
 ```
