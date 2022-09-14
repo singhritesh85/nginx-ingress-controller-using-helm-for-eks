@@ -13,7 +13,7 @@ After creating it you need to edit the service and provide ssl certificate detai
 service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
 service.beta.kubernetes.io/aws-load-balancer-connection-idle-timeout: "60"
 service.beta.kubernetes.io/aws-load-balancer-cross-zone-load-balancing-enabled: "true"
-service.beta.kubernetes.io/aws-load-balancer-ssl-cert: arn:aws:acm:us-east-2:365170125456:certificate/d2c334d0-6893-46c0-bc50-dbe186a52fa4
+service.beta.kubernetes.io/aws-load-balancer-ssl-cert: arn:aws:acm:us-east-2:XXXXXXXX:certificate/XXXXXX-XXXXXXX-XXXXXXX-XXXXXXXX
 service.beta.kubernetes.io/aws-load-balancer-ssl-ports: https
 service.beta.kubernetes.io/aws-load-balancer-type: elb
 ````
