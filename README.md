@@ -55,7 +55,7 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: nginx
 spec:
-  ingressClassName: nginx
+#  ingressClassName: nginx
   rules:
   - host: myweb.singhritesh85.com
     http:
